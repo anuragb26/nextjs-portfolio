@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} grid grid-rows-[auto_1fr_auto] h-lvh`}
+        className={`${inter.className}  bg-gray-900 text-white grid grid-rows-[auto_1fr_auto] h-lvh`}
       >
         {children}
       </body>
